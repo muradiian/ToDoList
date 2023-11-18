@@ -1,0 +1,22 @@
+.todoHead{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+}
+
+.todoHead > input{
+    height: 20px;
+}
+
+.todoHead > button{
+    width: 60px;
+    height: 30px;
+    border-radius: 6px;
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(69, 20, 114);
+}

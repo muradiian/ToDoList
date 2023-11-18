@@ -1,0 +1,51 @@
+.todoTask{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.title-Box{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 15px;
+    /* border: 2px solid red; */
+}
+
+.options-Box{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: 2px solidb black;
+}
+
+.delete-option{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+}
+
+.check_box{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: yellow;
+}

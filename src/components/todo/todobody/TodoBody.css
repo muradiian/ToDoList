@@ -1,0 +1,12 @@
+.todoBody{
+    width: 400px;
+    height: 550px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    border: 2px solid olive;
+}
